@@ -1,0 +1,54 @@
+body {
+    color: #fff;
+    background: linear-gradient(
+        180deg,
+        rgba(2,0,36,1) 0%,
+        rgba(0,0,32,1) 11%,
+        rgba(65,65,150,1) 100%
+    ) fixed;
+}
+
+#content {
+    margin: 0 auto;
+}
+
+a:link {
+    color: #9cf;
+}
+
+a:visited {
+    color: #c9f;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+#trailer {
+    text-align: center;
+    font-style: italic;
+}
+
+.pure-menu-link:link,
+.pure-menu-link:visited,
+.pure-menu-item a:link,
+.pure-menu-item a:visited {
+    color: #fff;
+}
+
+.pure-menu-link:hover,
+.pure-menu-item a:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #400000;
+    }
+    50% {
+        background-color: #580000;
+    }
+    100% {
+        background-color: #400000;
+    }
+}
